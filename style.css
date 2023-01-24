@@ -1,0 +1,17 @@
+ .input-group-text {
+            cursor: pointer;
+        }
+
+        body {
+            background-image: url(https://images2.alphacoders.com/760/76040.jpg);
+        }
+
+        .asddd {
+            backdrop-filter: blur(10px);
+        }
+        .qweqwe{
+           backdrop-filter: url(filters.svg#filter) blur(10px) saturate(200%);
+        }
+        textarea{
+            resize: none;
+        }
