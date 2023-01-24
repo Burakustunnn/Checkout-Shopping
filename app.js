@@ -15,8 +15,7 @@ products.addEventListener("click", (e) => {
 
   if (e.target.classList.contains("decrease")) {
     if (count.value > 1) {
-      count.value--;
-      
+      count.value--;      
     } else {
       const x= e.target.parentElement.parentElement.parentElement.querySelector(".productName").innerText
       if (
@@ -38,7 +37,6 @@ products.addEventListener("click", (e) => {
   }
  
 });
-
 const ilkHesap=(target)=>{
   const disDiv=target.closest(".dis")
   const x=disDiv.querySelector(".price").innerText;
